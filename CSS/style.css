@@ -1,0 +1,133 @@
+/* Common Css Start */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+.root{
+    --primaryFont:'Poppins', sans-serif;
+    --secondaryFont:'PT Sans', sans-serif;
+    --primaryColor:#FFCC00;
+    --secondaryColor:#353535;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 1114px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--primaryFont);
+}
+
+.align{
+    align-items: center;
+}
+
+/* Common Css End */
+
+/* NavBar */
+
+nav .logo{
+    width: 30%;
+}
+
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+        color: var(--secondaryColor);
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 200%; /* 30px */
+        padding: 18px 22px 5px;
+        display: block;
+        /* position: relative; */
+}
+
+
+/* nav .menu ul li a::after{
+    content: ;
+    width: 0%;
+    height: 1px;
+    background-color: var(--secondaryColor);
+    bottom: 0;
+    left:0 ;
+    position: absolute;
+    transition: 0.5s;
+}
+
+nav .menu ul li:hover a::after{
+    width: 100%;
+} */
+
+/* NavBar End */
+
+
+/* BANNER */
+
+#banner{
+    padding-top: 70px;
+}
+#banner .text{
+    width: 50%;
+}
+
+#banner .img{
+    width: 50%;
+}
+
+#banner .text h4{
+    color:var(--secondaryColor);
+/* font-family: var(--primaryFont); */
+font-size: 24px;
+/* font-style: normal; */
+font-weight: 400;
+/* line-height: normal; */
+}
+
+
+#banner .text h1{
+    color:var(--secondaryColor);
+font-family: var(--secondaryFont);
+font-size: 64px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+}
+
+
+#banner .text p{
+    color: var(--secondaryColor);
+    /* font-family: Poppins; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 190%; /* 38px */
+
+}
+/* BANNER END */
